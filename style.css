@@ -35,8 +35,8 @@ nav {
  #btn-translate {
      border: 1px solid black;
      text-align: center;
-     margin: 30px 600px;
-     background-color: beige;
+     margin: 30px 650px;
+     background-color: var(--primary-color);
      padding: 10px;
      border-radius: 5%;
  }
