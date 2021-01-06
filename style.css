@@ -1,8 +1,18 @@
+:root {
+    --primary-color: #F9A826;
+}
+
+body {
+    margin: -7vh -3vh;
+    
+}
+
+
 textarea {
     display: block;
     height: 15vh;
     width: 80%;
-    margin: 1vh auto;
+    margin: 3vh auto;
     padding: 1vh;
 }
 
@@ -13,3 +23,44 @@ textarea {
     margin: 1vh auto;
     padding: 1vh;
 }
+
+nav {
+    background-color: var(--primary-color);
+    font-size: xx-large;
+    font-style: normal;
+    text-align: center;
+    height: 15vh;
+    
+}
+ #btn-translate {
+     border: 1px solid black;
+     text-align: center;
+     margin: 30px 600px;
+     background-color: beige;
+     padding: 10px;
+     border-radius: 5%;
+ }
+
+ #texts {
+     text-align:center;
+ }
+
+ h1 {
+     padding: 5vh;
+     font-family: monospace;
+ }
+
+ footer{
+     background-color: var(--primary-color);
+     height: 24vh;
+ }
+
+ h2 {
+    font-size: 4vh;
+    text-align: center;
+ }
+ p {
+     text-align: center;
+     padding: 1vh;
+ }
+
